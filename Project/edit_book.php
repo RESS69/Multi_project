@@ -50,11 +50,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <input type="number" name="bookPrice" class="form-control" value="<?= $book['BookPrice'] ?>" required>
         </div>
         <div class="mb-3">
-            <label for="author" class="form-label">Book Name</label>
+            <label for="author" class="form-label">Author</label>
             <input type="text" name="author" class="form-control" value="<?= $book['Author'] ?>" required>
         </div>
         <div class="mb-3">
-            <label for="genre" class="form-label">Book Name</label>
+            <label for="genre" class="form-label">Genre</label>
             <input type="text" name="genre" class="form-control" value="<?= $book['Genre'] ?>" required>
         </div>
         <div class="mb-3">
